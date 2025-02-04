@@ -13,16 +13,23 @@ The input file must follow the structure below:
 
 Nodes (Buildings):A list of building names, each on a separate line, followed by the word EDGES to indicate the start of edge data.
 Example;
+
 Building A
+
 Building B
+
 Building C
+
 EDGES
 
 
 Edges (Paths between buildings):Each line should contain two building names and the time it takes to travel between them, separated by commas.
 Example;
+
 Building A, Building B, 5
+
 Building B, Building C, 10
+
 Building A, Building C, 15
 
 
